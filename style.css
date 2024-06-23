@@ -1,0 +1,53 @@
+* {
+  font-size: 40px;
+}
+
+body {
+  background-color: rgb(181, 236, 210);
+}
+
+.box {
+
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  width: 300px;
+}
+
+.item {
+  border: 1px solid rgb(55, 161, 121);
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  background-color: rgb(214, 253, 247);
+  color: rgb(67, 192, 150);
+  cursor: pointer;
+  transition-property: transform, background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+}
+
+button:hover {
+  background-color: rgb(130, 236, 205);
+  color: white;
+  /* transform: translateY(-2px); */
+}
+
+.position {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
+.new {
+  grid-column: 1/4;
+  margin-top: 20px;
+  background-color: rgb(45, 182, 136);
+  color: rgb(170, 245, 220)
+}
+.p21{
+  display: block;
+  color: rgb(67, 192, 150);
+}
